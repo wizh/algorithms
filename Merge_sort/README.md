@@ -1,4 +1,4 @@
-# Insertion sort
+# Merge sort
 ### Advantages:
 * Good worst-case running time
 
