@@ -16,5 +16,6 @@ def merge_sort(seq):
     if len(seq) == 1:
         return seq
 
-    return merge(merge_sort(seq[:ceil(len(seq) / 2)]),
-                 merge_sort(seq[ceil(len(seq) / 2):]))
+    split = ceil(len(seq) / 2)
+    return merge(merge_sort(seq[:split]),
+                 merge_sort(seq[split:]))
