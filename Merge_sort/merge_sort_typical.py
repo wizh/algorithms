@@ -1,4 +1,4 @@
-from math import floor, ceil
+from math import ceil
 
 def merge(left, right):
     merged = []
@@ -17,4 +17,4 @@ def merge_sort(seq):
         return seq
 
     return merge(merge_sort(seq[:ceil(len(seq) / 2)]),
-                 merge_sort(seq[floor(len(seq) / 2):]))
+                 merge_sort(seq[ceil(len(seq) / 2):]))
