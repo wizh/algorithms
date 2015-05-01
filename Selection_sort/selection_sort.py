@@ -3,7 +3,7 @@ def selection_sort(seq):
         low = i
 
         for j in range (i + 1, len(seq)):
-            if (seq[j] < seq[low]):
+            if seq[j] < seq[low]:
                 low = j
 
         seq[i], seq[low] = seq[low], seq[i]
