@@ -1,7 +1,7 @@
-# Selection sort
+# Bubble sort
 ### Advantages:
 * Simple
-* Inplace
+* In-place
 * Can be practical for almost sorted lists
 
 ### Disadvantages:
