@@ -1,2 +1,2 @@
 # Bogosort
-Not to be taking seriously
+Not to be taking seriously.
