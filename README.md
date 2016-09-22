@@ -1,4 +1,2 @@
-# Algorithm implementations!
-My take on sorting and searching problems.
-
-Everything implemented as Python 3.4.x.
+# algorithms
+Generic search and sorting algorithms implemented in Pythhon 3.4.x.
